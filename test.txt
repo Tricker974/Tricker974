@@ -1,0 +1,6 @@
+更新步骤
+git init
+git remote add origin (ssh地址)
+git add . 
+git commit -m "备注"
+git push origin master

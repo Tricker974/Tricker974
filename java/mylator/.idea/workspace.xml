@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61b9c430-7704-4eb6-a116-774ea5f0bf13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>table-basic</find>
+      <find>topbar</find>
+      <find>sidebar</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\mvrepository" />
+        <option name="mavenHome" value="E:/MEAVN/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\MEAVN\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22Ef9dYK6wO7X4MvY7Gqp02N8WD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/crawler" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mylator\src\main\resources\static" />
+      <recent name="F:\mylator\src\main\resources\templates\pages2" />
+      <recent name="F:\mylator\src\main\resources\templates\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.test" />
+      <module name="mylator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MylatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mylator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lator.tricker.mylator.MylatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Spring Boot.MylatorApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61b9c430-7704-4eb6-a116-774ea5f0bf13" name="Default Changelist" comment="" />
+      <created>1639407516243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639407516243</updated>
+      <workItem from="1639407520521" duration="538000" />
+      <workItem from="1639458331204" duration="12772000" />
+      <workItem from="1640324504471" duration="3950000" />
+      <workItem from="1640562650994" duration="12728000" />
+      <workItem from="1640588779312" duration="3293000" />
+      <workItem from="1640650898130" duration="17943000" />
+      <workItem from="1640737500145" duration="20007000" />
+      <workItem from="1640823855983" duration="17709000" />
+      <workItem from="1640910672250" duration="19516000" />
+      <workItem from="1642748196295" duration="6813000" />
+      <workItem from="1642982986085" duration="7174000" />
+      <workItem from="1643014030496" duration="613000" />
+      <workItem from="1643071497991" duration="10347000" />
+      <workItem from="1643156268222" duration="8574000" />
+      <workItem from="1644565227531" duration="1611000" />
+      <workItem from="1644796604297" duration="12487000" />
+      <workItem from="1644884698960" duration="17107000" />
+      <workItem from="1644971402048" duration="9683000" />
+      <workItem from="1645057190871" duration="14430000" />
+      <workItem from="1645143671507" duration="13392000" />
+      <workItem from="1645400872825" duration="8358000" />
+      <workItem from="1645411927178" duration="8258000" />
+      <workItem from="1645489575299" duration="14100000" />
+      <workItem from="1645575382571" duration="10121000" />
+      <workItem from="1645661799923" duration="17819000" />
+      <workItem from="1645748139108" duration="10381000" />
+      <workItem from="1646006928490" duration="20000" />
+      <workItem from="1646008067235" duration="1301000" />
+      <workItem from="1646012563107" duration="9466000" />
+      <workItem from="1646035897223" duration="2246000" />
+      <workItem from="1646207301182" duration="2193000" />
+      <workItem from="1646266431661" duration="14896000" />
+      <workItem from="1646353534686" duration="16085000" />
+      <workItem from="1646611019840" duration="14987000" />
+      <workItem from="1646634978517" duration="4311000" />
+      <workItem from="1646698522242" duration="11108000" />
+      <workItem from="1646784985390" duration="188000" />
+      <workItem from="1646785194336" duration="19109000" />
+      <workItem from="1646871591557" duration="17099000" />
+      <workItem from="1647246784895" duration="1542000" />
+      <workItem from="1647303523592" duration="16167000" />
+      <workItem from="1647390799027" duration="11102000" />
+      <workItem from="1647476112577" duration="5639000" />
+      <workItem from="1648609335578" duration="9171000" />
+      <workItem from="1648685607911" duration="15797000" />
+      <workItem from="1650445141543" duration="63000" />
+      <workItem from="1650500237181" duration="2945000" />
+      <workItem from="1651826982085" duration="929000" />
+      <workItem from="1652256244327" duration="3107000" />
+      <workItem from="1652314889038" duration="1861000" />
+      <workItem from="1653465934351" duration="2869000" />
+      <workItem from="1653611159431" duration="15443000" />
+      <workItem from="1653867574299" duration="16084000" />
+      <workItem from="1653956079599" duration="7077000" />
+      <workItem from="1654069620727" duration="3050000" />
+      <workItem from="1654129085676" duration="17804000" />
+      <workItem from="1654472698743" duration="19961000" />
+      <workItem from="1654561300883" duration="10102000" />
+      <workItem from="1654648394781" duration="8279000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1653963844939">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1653963844939" />
+    <state width="1876" height="280" key="GridCell.Tab.0.bottom" timestamp="1654075814004">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1654075814004" />
+    <state width="1876" height="280" key="GridCell.Tab.0.center" timestamp="1654075814004">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="280" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1654075814004" />
+    <state width="1876" height="280" key="GridCell.Tab.0.left" timestamp="1654075814004">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="280" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1654075814004" />
+    <state width="1876" height="280" key="GridCell.Tab.0.right" timestamp="1654075814004">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="280" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1654075814004" />
+    <state width="1876" height="280" key="GridCell.Tab.1.bottom" timestamp="1648630814490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1648630814490" />
+    <state width="1876" height="280" key="GridCell.Tab.1.center" timestamp="1648630814489">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="280" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1648630814489" />
+    <state width="1876" height="280" key="GridCell.Tab.1.left" timestamp="1648630814489">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="280" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1648630814489" />
+    <state width="1876" height="280" key="GridCell.Tab.1.right" timestamp="1648630814489">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="280" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1648630814489" />
+    <state x="586" y="197" key="SettingsEditor" timestamp="1647246818285">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="197" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1647246818285" />
+  </component>
+</project>

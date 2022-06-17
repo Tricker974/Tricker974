@@ -18,6 +18,6 @@ public class MvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new LoginInterceptor())
                 .addPathPatterns("/**")                 //过滤哪些请求
-                .excludePathPatterns("/login.html","/","/sys/login");     //不包含哪些
+                .excludePathPatterns("/login.html","/","/sys/login","/Number/getNumber");     //不包含哪些
     }
 }

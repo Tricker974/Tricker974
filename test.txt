@@ -1,4 +1,4 @@
-更新步骤
+g更新步骤
 git init
 git remote add origin (ssh地址)
 git add . 

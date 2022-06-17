@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b9c430-7704-4eb6-a116-774ea5f0bf13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -53,20 +53,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/crawler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lator.tricker.mylator.number" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\mylator\src\main\resources\static" />
       <recent name="F:\mylator\src\main\resources\templates\pages2" />
       <recent name="F:\mylator\src\main\resources\templates\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Spring Boot.MylatorApplication">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.test" />
       <module name="mylator" />
@@ -166,6 +169,8 @@
       <workItem from="1654472698743" duration="19961000" />
       <workItem from="1654561300883" duration="10102000" />
       <workItem from="1654648394781" duration="8279000" />
+      <workItem from="1655453325608" duration="190000" />
+      <workItem from="1655453595256" duration="9000" />
     </task>
     <servers />
   </component>
@@ -177,38 +182,54 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1653963844939" />
-    <state width="1876" height="280" key="GridCell.Tab.0.bottom" timestamp="1654075814004">
+    <state width="1876" height="350" key="GridCell.Tab.0.bottom" timestamp="1655453515421">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1654075814004" />
-    <state width="1876" height="280" key="GridCell.Tab.0.center" timestamp="1654075814004">
+    <state width="1876" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
+    <state width="1876" height="350" key="GridCell.Tab.0.center" timestamp="1655453515421">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1654075814004" />
-    <state width="1876" height="280" key="GridCell.Tab.0.left" timestamp="1654075814004">
+    <state width="1876" height="350" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
+    <state width="1876" height="350" key="GridCell.Tab.0.left" timestamp="1655453515421">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1654075814004" />
-    <state width="1876" height="280" key="GridCell.Tab.0.right" timestamp="1654075814004">
+    <state width="1876" height="350" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
+    <state width="1876" height="350" key="GridCell.Tab.0.right" timestamp="1655453515421">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1654075814004" />
-    <state width="1876" height="280" key="GridCell.Tab.1.bottom" timestamp="1648630814490">
+    <state width="1876" height="350" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
+    <state width="1876" height="350" key="GridCell.Tab.1.bottom" timestamp="1655453515422">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1648630814490" />
-    <state width="1876" height="280" key="GridCell.Tab.1.center" timestamp="1648630814489">
+    <state width="1876" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
+    <state width="1876" height="350" key="GridCell.Tab.1.center" timestamp="1655453515422">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1648630814489" />
-    <state width="1876" height="280" key="GridCell.Tab.1.left" timestamp="1648630814489">
+    <state width="1876" height="350" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
+    <state width="1876" height="350" key="GridCell.Tab.1.left" timestamp="1655453515421">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1648630814489" />
-    <state width="1876" height="280" key="GridCell.Tab.1.right" timestamp="1648630814489">
+    <state width="1876" height="350" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
+    <state width="1876" height="350" key="GridCell.Tab.1.right" timestamp="1655453515422">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1648630814489" />
+    <state width="1876" height="350" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
+    <state width="1876" height="350" key="GridCell.Tab.2.bottom" timestamp="1655453515422">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="350" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
+    <state width="1876" height="350" key="GridCell.Tab.2.center" timestamp="1655453515422">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="350" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
+    <state width="1876" height="350" key="GridCell.Tab.2.left" timestamp="1655453515422">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="350" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
+    <state width="1876" height="350" key="GridCell.Tab.2.right" timestamp="1655453515422">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="350" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
     <state x="586" y="197" key="SettingsEditor" timestamp="1647246818285">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

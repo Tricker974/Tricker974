@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.1</version>
+        <version>2.6.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lator.tricker</groupId>
@@ -16,6 +16,7 @@
     <properties>
         <java.version>1.8</java.version>
         <fastjson.version>1.2.8</fastjson.version>
+        <tomcat.version>9.0.58</tomcat.version>
     </properties>
     <dependencies>
         <dependency>

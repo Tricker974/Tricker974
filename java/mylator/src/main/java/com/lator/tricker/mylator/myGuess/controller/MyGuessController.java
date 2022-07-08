@@ -102,6 +102,7 @@ public class MyGuessController {
             }
         }
         obj.put("rewardList",reward);
+        System.out.println("this is the result");
         return obj.toJSONString();
     }
 

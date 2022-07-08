@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lator.tricker.mylator.myGuess.mapper.MyGuessMapper">
+    <insert id="insertMyGuess" parameterType="myGuessPojo">
+        insert into my_guess_record(version,myRedNum,myBlueNum,createTime)values(#{version},#{redList},#{blueList},NOW())
+    </insert>
+    <select id="queryVersion" resultType="java.lang.String">
+        SELECT version from num_guess_result order by version desc limit 1
+    </select>
+    <select id="queryMyGuess" parameterType="myGuessPojo" resultType="myGuessPojo">
+        select myRedNum,myBlueNum from my_guess_record where version=#{version}
+    </select>
+
+</mapper>

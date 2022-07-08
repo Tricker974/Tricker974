@@ -5,12 +5,17 @@ import java.util.List;
 
 public class test {
     public static void main(String[] args) {
-        for(int i=0;i<4;i++){
+        for (int i = 0; i <2 ; i++) {
             List<String> blueList = outBlue();
             List<String> redList = outRed();
-
-           System.out.println(redList.toString()+blueList.toString());
+            System.out.println(redList.toString()+blueList.toString());
         }
+           /* List<String> blueList = outBlue();
+            List<String> redList = outRed();
+            String outNum=(redList.toString()+","+blueList.toString()).replace("[","").replace("]","");
+           System.out.println(outNum.trim());
+           System.out.println("02, 16, 18, 19, 26,09, 10".trim());*/
+
 
 
     }
@@ -19,7 +24,7 @@ public class test {
                 "11","12","13","14","15","16","17","18","19","20","21","22","23",
                 "24","25","26","27","28","29","30","31","32","33","34","35"};
         List<String> tempList=new ArrayList<>();
-        for(int i=0;i<35;i++){  
+        for(int i=0;i<35;i++){
            tempList.add(numberList[i]);
         }
         List<String> redList=new ArrayList<>();

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lator.tricker.mylator.number.mapper.NumberMapper">
+    <insert id="insertResult" parameterType="numberPojo">
+        insert into num_guess_result(version,redNum,blueNum)values(#{version},#{redNum},#{blueNum})
+    </insert>
+    <select id="queryIfExist" parameterType="numberPojo" resultType="java.lang.Integer">
+        select count(*) from num_guess_result where version=#{version}
+    </select>
+    <select id="queryPrizeResult" parameterType="numberPojo" resultType="numberPojo">
+        select redNum,blueNum,version from num_guess_result where version = (SELECT version from num_guess_result order by version desc limit 1)
+    </select>
+
+
+</mapper>

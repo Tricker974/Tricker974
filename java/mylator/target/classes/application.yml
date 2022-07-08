@@ -1,3 +1,25 @@
 spring:
   thymeleaf:
     cache: false #关闭模板引擎缓存
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/crawr_test?useAffectedRows=true
+    username: root
+    password: 1234
+    type: com.alibaba.druid.pool.DruidDataSource
+    #reids配置
+  redis:
+    host: 192.168.10.12
+    port: 6379
+    database: 0 #数据库索引 默认为0
+    connect-timeout: 180000 #连接超时时间
+    lettuce:
+      pool:
+        max-active: 20 #最大连接数 负数表示没有限制
+        max-wait: -1 #阻塞最大等待时间 负数表示没有限制
+        max-idle: 5 #最大空闲连接
+        min-idle: 0 #最小空闲连接
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  mapper-locations: classpath:mybatis/mapper/**/*.xml

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61b9c430-7704-4eb6-a116-774ea5f0bf13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../test.txt" afterDir="false" />
-    </list>
+    <list default="true" id="61b9c430-7704-4eb6-a116-774ea5f0bf13" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,16 +11,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>table-basic</find>
-      <find>topbar</find>
-      <find>sidebar</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -53,23 +45,71 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/project/lared" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.lator.tricker.mylator.number.mapper" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lator.tricker.mylator.testInfo.controller" />
       <recent name="com.lator.tricker.mylator.number" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mygit\java\mylator\src\main\resources\mybatis\mapper" />
+      <recent name="D:\mygit\java\mylator\src\main\resources" />
+      <recent name="D:\mygit\java\mylator\src\main\resources\mybatis" />
       <recent name="F:\mylator\src\main\resources\static" />
       <recent name="F:\mylator\src\main\resources\templates\pages2" />
-      <recent name="F:\mylator\src\main\resources\templates\pages" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MylatorApplication">
+    <configuration name="ContainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.ContainTest" />
+      <module name="mylator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.JedisTest" />
+      <module name="mylator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.VerifyCode" />
+      <module name="mylator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.test" />
       <module name="mylator" />
@@ -83,6 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JedisTest.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mylator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.JedisTest" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MylatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mylator" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lator.tricker.mylator.MylatorApplication" />
@@ -92,10 +148,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.ContainTest" />
+      <item itemvalue="Application.JedisTest" />
+      <item itemvalue="Application.VerifyCode" />
+      <item itemvalue="JUnit.JedisTest.demo1" />
       <item itemvalue="Spring Boot.MylatorApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainTest" />
+        <item itemvalue="Application.VerifyCode" />
+        <item itemvalue="JUnit.JedisTest.demo1" />
+        <item itemvalue="Application.JedisTest" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -170,7 +234,26 @@
       <workItem from="1654561300883" duration="10102000" />
       <workItem from="1654648394781" duration="8279000" />
       <workItem from="1655453325608" duration="190000" />
-      <workItem from="1655453595256" duration="9000" />
+      <workItem from="1655453595256" duration="2666000" />
+      <workItem from="1655682900955" duration="14026000" />
+      <workItem from="1655771030313" duration="15061000" />
+      <workItem from="1655800514847" duration="2983000" />
+      <workItem from="1655890260301" duration="56000" />
+      <workItem from="1655943739981" duration="12800000" />
+      <workItem from="1656030085749" duration="17283000" />
+      <workItem from="1656287456686" duration="16527000" />
+      <workItem from="1656399169759" duration="8704000" />
+      <workItem from="1656462328973" duration="16281000" />
+      <workItem from="1656548834722" duration="5758000" />
+      <workItem from="1656572223523" duration="748000" />
+      <workItem from="1656575050208" duration="2826000" />
+      <workItem from="1656635015513" duration="17096000" />
+      <workItem from="1656892797389" duration="12248000" />
+      <workItem from="1656921738580" duration="2930000" />
+      <workItem from="1656981900349" duration="12366000" />
+      <workItem from="1657088533368" duration="7393000" />
+      <workItem from="1657153840178" duration="15356000" />
+      <workItem from="1657240341857" duration="14089000" />
     </task>
     <servers />
   </component>
@@ -178,61 +261,96 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1653963844939">
+    <state x="765" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1657180568785">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1653963844939" />
-    <state width="1876" height="350" key="GridCell.Tab.0.bottom" timestamp="1655453515421">
+    <state x="765" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1657180568785" />
+    <state x="767" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1655798783502">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
-    <state width="1876" height="350" key="GridCell.Tab.0.center" timestamp="1655453515421">
+    <state x="767" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1655798783502" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1657242435256">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
-    <state width="1876" height="350" key="GridCell.Tab.0.left" timestamp="1655453515421">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1657242435256" />
+    <state width="1876" height="262" key="GridCell.Tab.0.bottom" timestamp="1657268776258">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
-    <state width="1876" height="350" key="GridCell.Tab.0.right" timestamp="1655453515421">
+    <state width="1876" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1657268776258" />
+    <state width="1876" height="262" key="GridCell.Tab.0.center" timestamp="1657268776258">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
-    <state width="1876" height="350" key="GridCell.Tab.1.bottom" timestamp="1655453515422">
+    <state width="1876" height="262" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1657268776258" />
+    <state width="1876" height="262" key="GridCell.Tab.0.left" timestamp="1657268776258">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
-    <state width="1876" height="350" key="GridCell.Tab.1.center" timestamp="1655453515422">
+    <state width="1876" height="262" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1657268776258" />
+    <state width="1876" height="262" key="GridCell.Tab.0.right" timestamp="1657268776258">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
-    <state width="1876" height="350" key="GridCell.Tab.1.left" timestamp="1655453515421">
+    <state width="1876" height="262" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1657268776258" />
+    <state width="1876" height="262" key="GridCell.Tab.1.bottom" timestamp="1657186269192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515421" />
-    <state width="1876" height="350" key="GridCell.Tab.1.right" timestamp="1655453515422">
+    <state width="1876" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1657186269192" />
+    <state width="1876" height="262" key="GridCell.Tab.1.center" timestamp="1657186269192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
-    <state width="1876" height="350" key="GridCell.Tab.2.bottom" timestamp="1655453515422">
+    <state width="1876" height="262" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1657186269192" />
+    <state width="1876" height="262" key="GridCell.Tab.1.left" timestamp="1657186269192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
-    <state width="1876" height="350" key="GridCell.Tab.2.center" timestamp="1655453515422">
+    <state width="1876" height="262" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1657186269192" />
+    <state width="1876" height="262" key="GridCell.Tab.1.right" timestamp="1657186269192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
-    <state width="1876" height="350" key="GridCell.Tab.2.left" timestamp="1655453515422">
+    <state width="1876" height="262" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1657186269192" />
+    <state width="1876" height="262" key="GridCell.Tab.2.bottom" timestamp="1657186269192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
-    <state width="1876" height="350" key="GridCell.Tab.2.right" timestamp="1655453515422">
+    <state width="1876" height="262" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1657186269192" />
+    <state width="1876" height="262" key="GridCell.Tab.2.center" timestamp="1657186269192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="350" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1655453515422" />
-    <state x="586" y="197" key="SettingsEditor" timestamp="1647246818285">
+    <state width="1876" height="262" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1657186269192" />
+    <state width="1876" height="262" key="GridCell.Tab.2.left" timestamp="1657186269192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="586" y="197" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1647246818285" />
+    <state width="1876" height="262" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1657186269192" />
+    <state width="1876" height="262" key="GridCell.Tab.2.right" timestamp="1657186269192">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="262" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1657186269192" />
+    <state x="586" y="197" key="SettingsEditor" timestamp="1655971144093">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="197" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1655971144093" />
+    <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1655713714824">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="968" height="533" key="XDebugger.FullValuePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1655713714824" />
+    <state x="752" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1657176393179">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="752" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1657176393179" />
+    <state x="690" y="288" key="extract.method.dialog" timestamp="1657182278377">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="288" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1657182278377" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1657010568351">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1657010568351" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lator/tricker/mylator/testInfo/controller/RedisConTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

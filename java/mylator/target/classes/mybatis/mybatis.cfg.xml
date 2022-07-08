@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="cacheEnabled" value="true" /><!-- 二级缓存开启 -->
+		<!-- 是否开启自动驼峰命名规则（camel case）映射，即从数据库列名 A_COLUMN 到属性名 aColumn 的类似映射 -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+	<typeAliases>
+		<!-- start***************系统基础模块****************** -->
+<!--		<typeAlias alias="priceBean" type="evo.crawler.job.pojo.PriceInfo"  />-->
+		<typeAlias alias="numberPojo" type="com.lator.tricker.mylator.number.pojo.NumberGuessPojo"  />
+		<typeAlias alias="myGuessPojo" type="com.lator.tricker.mylator.myGuess.pojo.MyGuessPojo"  />
+	</typeAliases>
+</configuration>
+

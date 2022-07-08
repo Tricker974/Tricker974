@@ -1,24 +1,48 @@
-package com.lator.tricker.mylator.number;
+package com.lator.tricker.mylator.number.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.lator.tricker.mylator.number.pojo.NumberGuessPojo;
+import com.lator.tricker.mylator.number.service.Impl.NumberServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @RestController
-@RequestMapping("/Number")
+@RequestMapping("/wx/Number")
 public class GuessController {
+    @Autowired
+    private NumberServiceImpl numberService;
 
+    /**
+     * 随机一注
+     * @return
+     */
     @RequestMapping("/getNumber")
     public String GetOneNormal(){
         JSONObject obj=new JSONObject();
         String resultNumber=this.outRed().toString()+this.outBlue().toString();
         obj.put("code",200);
         obj.put("number",resultNumber);
+        obj.put("redNum",this.outRed());
+        obj.put("blueNum",this.outBlue());
         return obj.toJSONString();
     }
+
+    @RequestMapping("/getPrizeResult")
+    public String getPrizeResult(NumberGuessPojo bean){
+        JSONObject obj=new JSONObject();
+        NumberGuessPojo numberGuessPojo=this.numberService.queryPrizeResult(bean);
+        List<String> redNum= Arrays.asList(numberGuessPojo.getRedNum().split(","));
+        List<String> blueNum= Arrays.asList(numberGuessPojo.getBlueNum().split(","));
+        obj.put("redNum",redNum);
+        obj.put("blueNum",blueNum);
+        return obj.toJSONString();
+    }
+
 
 
     public  List<String> outRed(){
@@ -57,7 +81,6 @@ public class GuessController {
         blueList=outMyNumber(blueList);
         return blueList;
     }
-
     public  List<String> outMyNumber(List<String> inList){
         for(int i=0;i<inList.size();i++){
             for(int j=i+1;j<inList.size();j++){

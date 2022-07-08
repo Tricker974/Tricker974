@@ -7,6 +7,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
+    /***
+     *
+     * @param registry
+     */
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName("/login");
@@ -18,6 +22,6 @@ public class MvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new LoginInterceptor())
                 .addPathPatterns("/**")                 //过滤哪些请求
-                .excludePathPatterns("/login.html","/","/sys/login","/Number/getNumber");     //不包含哪些
+                .excludePathPatterns("/login.html","/","/sys/login","/Number/getNumber","/wx/**","/redis/**");     //不包含哪些
     }
 }

@@ -1,0 +1,37 @@
+/* pages/number/guessResult.wxss */
+.blueNum{
+  display: inline;
+  flex-wrap:wrap;
+}
+.redNum{
+  display: inline;
+  flex-wrap:wrap;
+}
+.redNum text{
+  margin-left: 15rpx;
+  border: 2rpx solid red;
+  border-radius: 50%;
+  color: red;
+  font-size: x-large;
+}
+.blueNum text{
+  margin-left: 15rpx;
+  border: 2rpx solid blue;
+  border-radius: 50%;
+  color: blue;
+  font-size: x-large;
+}
+.prizeNum{
+  margin-top: 40rpx;
+  margin-left: 90rpx;
+}
+.titileText{
+  display: inline;
+  flex-wrap:wrap;
+}
+.titileText text{
+  margin-left: 300rpx;
+  color: rgb(255, 0, 0);
+  font-size: larger;
+  border: 1rpx;
+}

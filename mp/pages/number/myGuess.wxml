@@ -1,0 +1,7 @@
+<!--pages/number/myGuess.wxml-->
+
+<form bindsubmit="formSubmit">
+<input type="text" name="name" class="content" placeholder="请输入红区号码"/>
+<input type="text" name="plateNo" class="content" placeholder="请输入蓝区号码"/>
+<button class="wehx-foot-btn" hover-class="wehx-button_hover" formType="submit">确定</button>
+</form>

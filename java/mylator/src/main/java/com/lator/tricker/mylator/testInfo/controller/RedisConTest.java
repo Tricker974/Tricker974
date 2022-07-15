@@ -14,7 +14,7 @@ public class RedisConTest {
 
     @RequestMapping("/test")
     public String testRedis(){
-        redisTemplate.opsForValue().set("xxx","123");
+        redisTemplate.opsForValue().set("xxx","zhangsan");
         String xxx = (String)redisTemplate.opsForValue().get("xxx");
         return xxx;
     }

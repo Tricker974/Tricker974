@@ -9,7 +9,8 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     #reids配置
   redis:
-    host: 192.168.10.12
+    #host: 192.168.10.12
+    host: 192.168.10.128
     port: 6379
     database: 0 #数据库索引 默认为0
     connect-timeout: 180000 #连接超时时间
